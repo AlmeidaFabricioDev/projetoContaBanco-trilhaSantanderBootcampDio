@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ContaBanco_df6e55d1"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "java",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Figuras",
+            "vmArgs": "--module path \"C:/Program Files/Java/jdk1.8.0_341/javafx-sdk-18.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
